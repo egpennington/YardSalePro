@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #009688;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 2px #333;
+}
+
+header a:hover {
+  border-bottom: 1px #fff solid;
+}
+
+header .nav-bar .main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+}
+
+main {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 840px;
+    margin: auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007566;
+}
+
+/* mobile reactive */
+@media(max-width: 700px) {
+  .menu-btn {
+    display: block;
+  }
+  
+  .menu-btn:hover {
+    opacity: 0.8;
+  }
+  
+  header .nav-bar .main-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #009688;
+    width: 30%;
+    height: 100%;
+    z-index: 3;
+    opacity: 0.8;
+    padding: 30px;
+    transform: translateX(-500px);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  header .nav-bar .main-menu.show {
+    transform: translateX(-20px);
+    margin-top: 60px;
+  }
+  
+  header .nav-bar ul li {
+    border-bottom: 1px #ccc solid;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  header .nav-bar ul li:last-child {
+    border-bottom: 0;
+  }
+}

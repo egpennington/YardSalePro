@@ -1,0 +1,60 @@
+Define your MVP
+
+Problem Statement: Easy access, brings people that are good orginzers of yard sales
+and matches them to people who don't like to do garage sales and together they help each other
+to make money.
+
+Product Vision/Solution: A social networking app that enables people to match their skills and needs
+and offers a network to connect.
+
+Who: Home owners and people who love to organize garage sales.
+
+Use Cases:
+a. Connects with community members
+b. matches needs with other's skills
+c. able to form matches
+d. shedule yard sales
+
+
+1. Id and prioritize featers
+2. Create an epic for each feature
+3. Choose the highest priority epics and divide them into user stories
+===============================================================================================
+
+"Yard Sale Pro" app, which acts as a platform to match users who dislike doing yard sales with
+others who love doing them and handle the yard sale on their behalf
+
+Epic 1: User Registration and Profile Management:
+This Epic involves creating user accounts and managing user profiles.
+
+Example User Story 1.1: "User can register an account"
+As a user, I want to be able to register an account on the Yard Sale Pro app with my email and 
+password, so I can use the service.
+
+Example User Story 1.2: "User can complete their profile"
+As a user, I want to be able to complete my profile by providing personal information, preferences, 
+and payment details, so potential yard sale hosts can understand my needs and expectations.
+===============================================================================================
+Epic 2: Matching and Scheduling Yard Sales:
+This Epic involves the core functionality of matching users who need yard sale assistance with those 
+who are willing to do them.
+
+Example User Story 2.1: "User can request a yard sale service"
+As a user who dislikes doing yard sales, I want to be able to request a yard sale service by providing 
+details such as location, date, time, and the expected share of the sales, so I can find a suitable 
+match.
+
+Example User Story 2.2: "User can accept yard sale requests"
+As a user who loves doing yard sales, I want to be able to browse and accept yard sale requests based 
+on my availability and preferences, so I can offer my services.
+================================================================================================
+Epic 3: Yard Sale Execution and Revenue Sharing
+This Epic focuses on the actual execution of yard sales and managing the financial aspects.
+
+Example User Story 3.1: "User can communicate and coordinate for the yard sale"
+As a user who requested a yard sale service, I want to be able to communicate with the matched helper 
+to coordinate logistics, plan pricing, and agree on the revenue-sharing terms.
+
+Example User Story 3.2: "User can track and view yard sale earnings"
+As a user who provided yard sale services, I want to be able to track the sales revenue generated 
+from each yard sale, view my earnings, and receive my share securely through the app.
