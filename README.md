@@ -3,7 +3,7 @@
 ## Overview
 The "Yard Sale Pro" app acts as a platform to match users who dislike doing yard sales with others who love doing them and handle the yard sale on their behalf
 
-**Live Line** https://yardsalepro.netlify.app/
+**Live Link** https://yardsalepro.netlify.app/
 
 ## Features
 1. Request a yard sale pro
@@ -19,9 +19,6 @@ The "Yard Sale Pro" app acts as a platform to match users who dislike doing yard
 ## Installation
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your web browser to access the app.
-
-## Usage
-Visit the Yard Sale Pro App to use the app. Follow the on-screen instructions to register an account, request yard sale services, match with helpers, coordinate yard sales, and track your earnings.
 
 ## Contributing
 If you have any questions, feedback, or suggestions, please contact us at *egpennington@hotmail.com* or on **twitter** *@emmettpenn23*
