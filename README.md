@@ -1,16 +1,20 @@
+# Yard Sale Pro
+
 ## Overview
-The "Yard Sale Pro" app, acts as a platform to match users who dislike doing yard sales with others who love doing them and handle the yard sale on their behalf
+The "Yard Sale Pro" app acts as a platform to match users who dislike doing yard sales with others who love doing them and handle the yard sale on their behalf
 
-https://yardsalepro.netlify.app/
+**Live Line** https://yardsalepro.netlify.app/
 
-## Features coming
-- **User Registration and Profile Management:** Users can create accounts and manage their profiles, providing information about their preferences and payment details.
+## Features
+1. Request a yard sale pro
+2. Matches a yard sale pro with user
+3. Show reviews and ratings for yard sale pros in the user's area
+4. Real-time chat feature utilizing an AI interface
 
-- **Matching and Scheduling Yard Sales:** Users can request yard sale services and browse available helpers to match based on location, date, time, and expected revenue sharing.
-
-- **Yard Sale Execution and Revenue Sharing:** The app facilitates communication and coordination for yard sales, enabling users to plan pricing and agree on revenue-sharing terms. It also allows users to track and view their earnings.
-
-- **User-Friendly Interface:** The app's intuitive user interface allows users to plan their yard sales more efficiently and effortlessly.
+## To Do/Features coming
+1. **User Registration and Profile Management:** Users can create accounts and manage their profiles, providing information about their preferences and payment details.
+2. **Matching and Scheduling Yard Sales:** Users can request yard sale services and browse available helpers to match based on location, date, time, and expected revenue sharing.
+3. **Yard Sale Execution and Revenue Sharing:** The app facilitates communication and coordination for yard sales, enabling users to plan pricing and agree on revenue-sharing terms. It also allows users to track and view their earnings.
 
 ## Installation
 1. Clone this repository to your local machine.
@@ -20,16 +24,4 @@ https://yardsalepro.netlify.app/
 Visit the Yard Sale Pro App to use the app. Follow the on-screen instructions to register an account, request yard sale services, match with helpers, coordinate yard sales, and track your earnings.
 
 ## Contributing
-
-We welcome contributions from the community to improve and expand the app's features. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test them thoroughly.
-4. Submit a pull request, describing the changes you've made and the problem they solve.
-
-## Contact
-
-If you have any questions, feedback, or suggestions, please contact us at egpennington@hotmail.com or on twitter @emmettpenn23
-
----
+If you have any questions, feedback, or suggestions, please contact us at *egpennington@hotmail.com* or on **twitter** *@emmettpenn23*
